@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.container {
+  margin: 3% 12%;
+}
+
+.top-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-left img {
+  height: 90px;
+}
+
+.top-right {
+  text-align: right;
+}
+
+.top-right-head {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form-box-wrapper {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  max-height: 90vh;
+  border: 1px solid rgba(91, 88, 88, 0.565);
+}
+
+.form-box-left {
+  width: 50%;
+  padding: 40px;
+}
+
+.image-attic {
+  height: 60px;
+  margin-left: -30px;
+}
+
+.form-box-head {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 30px 0px;
+  color: rgb(29, 29, 29);
+}
+
+.input-box {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(167, 161, 161, 0.762);
+  padding: 8px 8px 8px 0px;
+}
+
+.form-label {
+  margin: 20px 0px 10px 0px;
+  color: rgb(101, 98, 98);
+  font-weight: 500;
+}
+
+.form-select-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.form-select-section select {
+  padding: 5px;
+  font-size: 15px;
+  min-width: 120px;
+  border-color: blue;
+  color: blue;
+  background-color: transparent;
+}
+
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0px;
+}
+.save-button {
+  padding: 7px 15px;
+  background-color: rgb(6, 49, 6);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-box-right {
+  width: 50%;
+}
+
+.form-box-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.error-msg {
+  color: red;
+}
+
+.success-section {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.success-logo {
+  height: 150px;
+}
+
+.success-num {
+  width: 100%;
+}
+.success-bold {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.success-para {
+  font-size: 12px;
+  margin: 10px;
+}
